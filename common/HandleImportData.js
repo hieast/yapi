@@ -91,7 +91,6 @@ async function handle(
       let item = res[index];
       let data = Object.assign(item, {
         project_id: projectId,
-        catid: selectCatid
       });
       if (basePath) {
         data.path =
